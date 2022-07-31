@@ -1,0 +1,1015 @@
+
+
+input[type=checkbox] {
+    display:none;
+}
+
+input#thing1[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing1[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing2[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing2[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing3[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing3[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing4[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing4[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing5[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing5[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing6[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing6[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing7[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing7[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing8[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing8[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing9[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing9[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing10[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing10[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing11[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing11[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing12[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing12[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing13[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing13[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing14[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing14[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing15[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing15[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing16[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing16[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing17[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing17[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+
+input#thing18[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing18[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing19[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing19[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing20[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing20[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing21[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing21[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing6[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing22[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing7[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing22[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing23[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing23[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing24[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing24[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing25[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing25[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing26[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing26[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing27[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing27[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing28[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing28[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing30[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing30[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing31[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing31[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing32[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input#thing32[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing33[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing33[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing34[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing34[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing35[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing35[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing36[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing36[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing37[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing37[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing38[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing38[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing39[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing39[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing40[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing40[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing41[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing41[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing42[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing42[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing43[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing43[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing44[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing44[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing45[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing45[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing46[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing46[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing47[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing47[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing48[type=checkbox] + label
+{
+background-image: white;
+border-color:#161417 ;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+input#thing48[type=checkbox]:checked + label
+{
+border-color: #9324ac;
+border-style: solid;
+height: 55px;
+width: 55px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+
+

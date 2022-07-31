@@ -1,0 +1,191 @@
+
+ul {
+  list-style-type: none;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+li a:hover {
+  color: #9324ac;
+}
+
+li a:active {
+  color: #9324ac;
+} 
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 60px 70px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count:3;
+        -moz-column-count:3;
+        column-count:3;
+        ⋮
+    }
+    ⋮
+}
+
+/* Style the counter cards */
+
+
+.image {
+  display: block;
+  width:200px;
+  height:300px;
+  margin-left: 80px;
+  margin-top: 100px;
+
+}
+
+.button {
+  background-color: black; /* Green */
+  border: 3px solid white;
+  color: white;
+  padding: 10px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  width: 100px;
+  
+}
+
+.button5 {border-radius: 50%;}
+
+.button:hover {
+  color: #9324ac;
+}
+
+#main {
+  width: 780px;
+  padding: 20px;
+  margin: auto;
+}
+
+table.timecard {
+  margin: auto;
+  width: 800px;
+  border-collapse: collapse;
+  border: 1px solid #fff; /*for older IE*/
+  border-style: hidden;
+  margin-left: -30px;
+  text-align: center;
+}
+
+table.timecard caption {
+  background-color: #f79646;
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: .3em;
+}
+
+table.timecard thead th {
+  padding: 8px;
+  background-color: #fde9d9;
+  font-size: large;
+}
+
+table.timecard thead th#thDay {
+  width: 40%; 
+}
+
+table.timecard thead th#thRegular, table.timecard thead th#thOvertime, table.timecard thead th#thTotal {
+  width: 20%;
+}
+
+table.timecard th, table.timecard td {
+  padding: 10px;
+ border-bottom: 5px solid white;
+}
+
+table.timecard td {
+  text-align: center;
+}
+
+table.timecard tbody th {
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+table.timecard tfoot {
+  font-weight: bold;
+  font-size: large;
+  background-color: #687886;
+  color: #fff;
+}
+
+table.timecard tr.even {
+  background-color: #161417; 
+  color:white;
+}
+
+/* Thick red border */
+hr.new1 {
+  border-top: 2px solid #9324ac;
+}
+
+.box {
+  background-color: black; /* Green */
+  border: 3px solid white;
+  color: white;
+  padding: 10px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  width: 100px;
+  position: center;
+}
+
+
+

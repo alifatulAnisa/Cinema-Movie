@@ -1,0 +1,275 @@
+<html>
+
+<head>
+ <!--search-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--search-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+  /*search*/
+  input[type=text] {
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  /*search*/
+
+  .accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+
+  .panel {
+    padding: 0 30px;
+    width: 70%;
+    display: none;
+    background-color: #161417;
+    overflow: hidden;
+    text-align: left;
+  }
+
+</style>
+
+<body style="background-color:#161417;color:white;">
+
+  <ul>
+  	<li><a href="usermovies.php"><img src="img/logo.jpg" alt=logo style="margin-left: 80px;margin-top: 10px"></a></li>
+    <li><a  href="usermovies.php" style="margin-top: 30px;">Movies</a></li>
+    <!--li><a href="showtime.php">Showtime</a></li-->
+    <li><a href="location.html" >Cinemas</a></li>
+    <li><a href="FoodMenu.php">Food</a></li>
+  </ul>
+
+  <form action = "search.php" style="margin-top: 50px;margin-left: 1080px;max-width:250px">
+    <input type="text" name="keyword" placeholder="Search..">
+  </form>
+
+  <h2 style= "margin-left: : 30px"> MOVIE LOCATION</h2>
+  <hr class="new1">
+  <br>
+
+  <center><h2>CENTRAL</h2>
+  <br>
+  <button class="accordion">1 Utama</button>
+  <div class="panel">
+    <p><b>Location:</b> Level 3, Old Wing, 1 Utama Shopping Centre, 1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1585</p>
+  </div>
+
+  <button class="accordion">Bukit Tinggi</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot S32, 2nd Floor, AEON Bukit Tinggi Shopping Centre , 1, Persiaran Batu Nilam 1/KS6, Bandar Bukit Tinggi 2, 41200 Klang, Selangor, Malaysia</p>
+    <p><b>No. of Halls:</b> 6</p>
+    <p><b>Seating Capacity:</b> 1420</p>
+  </div>
+
+  <button class="accordion">Central i-City</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot 4-01, Level 4, Central i-City , No 1 Persiaran Multimedia, i-City, Seksyen 7, 40000 Shah Alam, Selangor, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1557</p>
+  </div>
+
+  <button class="accordion">Citta Mall</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot R03, 3rd Floor, Citta Mall, No.1, Jalan PJU 1A/48, PJU 1A, Ara Damansara, 47301, Petaling Jaya, Selangor</p>
+    <p><b>No. of Halls:</b> 9</p>
+    <p><b>Seating Capacity:</b> 1611</p>
+  </div>
+
+  <button class="accordion">Mid Valley Megamall</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot T-001 Mid Valley Megamall , 3rd Floor, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur</p>
+    <p><b>No. of Halls:</b> 10</p>
+    <p><b>Seating Capacity:</b> 2011</p>
+  </div>
+
+  <button class="accordion">NU Sentral</button>
+  <div class="panel">
+    <p><b>Location:</b> 5,14, Nu Sentral, 14,, 201, Jalan Stesen Sentral 5, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>
+    <p><b>No. of Halls:</b> 7</p>
+    <p><b>Seating Capacity:</b> 1585</p>
+  </div>
+
+  <button class="accordion">Pavillion</button>
+  <div class="panel">
+    <p><b>Location:</b> Level 3, Old Wing, 1 Utama Shopping Centre, 1, Lebuh Bandar Utama, Bandar Utama, 47800 Petaling Jaya, Selangor, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1680</p>
+  </div>
+
+  <button class="accordion">Subang Parade</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot 30, 32 & 33A, First Floor, Subang Parade, No. 5, Jalan SS 16/1, 47500 Subang Jaya, Selangor</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1336</p>
+  </div>
+
+  <button class="accordion">Sunway Pyramid</button>
+  <div class="panel">
+    <p><b>Location:</b> F1.01, Level 1, Sunway Pyramid, 3, Jalan PJS11/15, Bandar Sunway, 46150 Petaling Jaya, Selangor, Malaysia</p>
+    <p><b>No. of Halls:</b> 11</p>
+    <p><b>Seating Capacity:</b> 1633</p>
+  </div>
+
+  <button class="accordion">Sunway Velocity</button>
+  <div class="panel">
+    <p><b>Location:</b> Level 4, Sunway Velocity Mall, 90, Jalan Peel, Maluri, 55100 Kuala Lumpur, Wilayah Persekutuan, Malaysia</p>
+    <p><b>No. of Halls:</b> 9</p>
+    <p><b>Seating Capacity:</b> 1623</p>
+  </div></center>
+  <br><br><hr><br>
+
+  <center><h2>NORTH</h2>
+  <br>
+  <center><button class="accordion">1st Avenue</button>
+  <div class="panel">
+    <p><b>Location:</b> 8-20, Level 8, 1st Avenue Mall, 182, Jalan Magazine, 10300 Georgetown, Pulau Pinang, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1300</p>
+  </div>
+
+  <button class="accordion">Klebang</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot 12080, AEON Mall Ipoh Klebang, Klebang Perdana, 31200 Ipoh, Perak, Malaysia</p>
+    <p><b>No. of Halls:</b> 12</p>
+    <p><b>Seating Capacity:</b> 1845</p>
+  </div>
+
+  <button class="accordion">Station 18</button>
+  <div class="panel">
+    <p><b>Location:</b> AEON Station 18, Susuran Stesen 18, Menglembu, 31650 Ipoh, Perak, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1610</p>
+  </div>
+
+  <button class="accordion">Taiping</button>
+  <div class="panel">
+    <p><b>Location:</b> S01,2nd Floor AEON Mall Taiping, Lot 8576 & 8577, Jalan Kamunting, 34000 Taiping, Perak, Malaysia</p>
+    <p><b>No. of Halls:</b> 7</p>
+    <p><b>Seating Capacity:</b> 1287</p>
+  </div></center>
+  <br><br><hr><br>
+
+  <center><h2>SOUTH</h2>
+  <br>
+  <center><button class="accordion">AEON Mall Bandar Dato Onn</button>
+  <div class="panel">
+    <p><b>Location:</b> S-CN1, Second floor, AEON Mall Bandar Dato Onn, No 3 Jln Dato Onn, Bandar Dato Onn 800000 Johor</p>
+    <p><b>No. of Halls:</b> 5</p>
+    <p><b>Seating Capacity:</b> 663</p>
+  </div>
+
+  <button class="accordion">Bukit Indah</button>
+  <div class="panel">
+    <p><b>Location:</b> S01, 2nd Floor, AEON Bukit Indah Shopping Centre , 8, Jalan Indah 15/2, Bukit Indah, 81200 Johor Bahru, Johor, Malaysia</p>
+    <p><b>No. of Halls:</b> 9</p>
+    <p><b>Seating Capacity:</b> 1626</p>
+  </div>
+
+  <button class="accordion">Seremban 2</button>
+  <div class="panel">
+    <p><b>Location:</b> S02, 2nd Floor, AEON Seremban 2 Shopping Centre, 112, Persiaran S2 B1, Seremban 2, 70300 Seremban, Negeri Sembilan, Malaysia</p>
+    <p><b>No. of Halls:</b> 7</p>
+    <p><b>Seating Capacity:</b> 1191</p>
+  </div>
+
+  <button class="accordion">Tebrau City</button>
+  <div class="panel">
+    <p><b>Location:</b> S01, 2nd Floor, AEON Tebrau City Shopping Centre , 1, Jalan Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor, Malaysia</p>
+    <p><b>No. of Halls:</b> 10</p>
+    <p><b>Seating Capacity:</b> 1558</p>
+  </div>
+
+  <button class="accordion">Toppen Johor Bahru</button>
+  <div class="panel">
+    <p><b>Location:</b> L3.01, Level 3, Toppen Shopping Centre, Taman Desa Tebrau, 81100 Johor Bahru, Johor, Malaysia</p>
+    <p><b>No. of Halls:</b> 9</p>
+    <p><b>Seating Capacity:</b> 1443</p>
+  </div></center>
+  <br><br><hr><br>
+
+  <center><h2>EAST</h2>
+  <br>
+  <center><button class="accordion">Imperial City</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot 1CM - 3rd Floor 01, Permaisuri Imperial City Mall , Jalan Sida, 98000 Miri, Sarawak, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1189</p>
+  </div>
+
+  <button class="accordion">Mesra Mall</button>
+  <div class="panel">
+    <p><b>Location:</b> MA1, Mesra Mall, 6490, Jalan Kemaman-dungun, Kampung Baru, 24200 Kemasik, Terengganu, Malaysia</p>
+    <p><b>No. of Halls:</b> 5</p>
+    <p><b>Seating Capacity:</b> 782</p>
+  </div>
+
+  <button class="accordion">The Spring Shopping Mall</button>
+  <div class="panel">
+    <p><b>Location:</b> Lot 214, 2nd Floor, The Spring Shopping Mall, Jalan Simpang Tiga, 93300 Kuching, Sarawak</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1558</p>
+  </div>
+
+  <button class="accordion">Vivacity Megamall</button>
+  <div class="panel">
+    <p><b>Location:</b> Unit A01, Level 3, Vivacity Megamall , Jalan Wan Alwi, 93350 Kuching, Sarawak, Malaysia</p>
+    <p><b>No. of Halls:</b> 8</p>
+    <p><b>Seating Capacity:</b> 1220</p>
+  </div></center>
+  <br><br>
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+</script>
+
+  <hr class="new1">
+
+  <p style="text-align: right;color: white;letter-spacing: 2px;font-size: 11px"> Follow us : </p>
+  <p style="text-align: right;color: white;letter-spacing: 2px;font-size: 11px"> Copyright Reserved © 2019 iMad Cinemas Sdn Bhd. All Rights Reserved.</p>
+</body>
+</html>
