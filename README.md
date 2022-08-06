@@ -1,2 +1,2 @@
 # Cinema-Movie
-Example of the system
+Diploma group project
