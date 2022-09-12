@@ -2,7 +2,7 @@
 	session_start();
 	include('sql_connect.php');
 
-	$sql = mysql_query("INSERT INTO payment (total, cust_name, movie_name, food_id, location, showtime, datee) VALUES('{$_SESSION['price']}', '{$_SESSION['cust_name']}', '{$_SESSION['movie_name']}', '{$_SESSION['food']}' , '{$_SESSION['location']}', '{$_SESSION['showtime']}' , '{$_SESSION['datee']}')");
+	$sql = mysqli_query($conn, "INSERT INTO payment (total, cust_name, movie_name, food_id, location, showtime, datee) VALUES('{$_SESSION['price']}', '{$_SESSION['cust_name']}', '{$_SESSION['movie_name']}', '{$_SESSION['food']}' , '{$_SESSION['location']}', '{$_SESSION['showtime']}' , '{$_SESSION['datee']}')");
 ?>
 
 <!DOCTYPE html>
