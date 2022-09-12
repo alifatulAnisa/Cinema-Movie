@@ -70,23 +70,23 @@ input[type=text]:focus {
 
 
 
-<p><img src="showtime/LC.png" style="margin-left: 80px;margin-top: 10px"><img src="showtime/time.png"></p>
+<p><img src="movie/Alive.jpg" style="margin-left: 80px; margin-top: 10px; width: 300px;"><img src="showtime/time.png"></p>
 <hr>
 
 
-<p><img src="showtime/JUMANJI.png" style="margin-left: 80px;margin-top: 10px"><img src="showtime/time.png"></p>
+<p><img src="movie/Raya.jpg" style="margin-left: 80px; margin-top: 10px; width: 300px;"><img src="showtime/time.png"></p>
 <hr>
 
 
-<p><img src="showtime/JOKER.png" style="margin-left: 80px;margin-top: 10px"><img src="showtime/time.png"></p>
+<p><img src="movie/Eternals.jpg" style="margin-left: 80px; margin-top: 10px; width: 300px;"><img src="showtime/time.png"></p>
 <hr>
 
 
-<p><img src="showtime/MF.png"style="margin-left: 80px;margin-top: 10px"><img src="showtime/time.png"></p>
+<p><img src="movie/LockedDown.jpg"style="margin-left: 80px; margin-top: 10px; width: 300px;"><img src="showtime/time.png"></p>
 <hr>
 
 
-<p><img src="showtime/TERMINATOR.png"style="margin-left: 80px;margin-top: 10px"><img src="showtime/time.png"></p>
+<p><img src="movie/Mulan.jpg"style="margin-left: 80px; margin-top: 10px; width: 300px;"><img src="showtime/time.png"></p>
 
 
 
