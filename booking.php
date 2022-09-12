@@ -1,10 +1,10 @@
 <?php
   session_start(); 
-  include('sql_connect.php');
+  include('connect.php');
 
   $sql="select * from movie where movie_name='{$_GET['id']}' ";
-  $query=mysql_query($sql);
-  $row=mysql_fetch_object($query);
+  $query=mysqli_query($conn, $sql);
+  $row=mysqli_fetch_object($query);
   $movie_name=$row->movie_name;
   $_SESSION['movie_name'] = $movie_name;
 
