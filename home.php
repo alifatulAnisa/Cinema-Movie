@@ -2,7 +2,7 @@
 session_start();
 ?>
 <?php 
-include('sql_connect.php');
+include('connect.php');
 ?> 
 <html>
 
@@ -65,17 +65,17 @@ input[type=text]:focus {
 <hr class="new1">
 
 <?php
-$sql="select * from movie where movie_id = 1 OR movie_id = 2 OR movie_id = 3 ";
-$query=mysql_query($sql);
- if(mysql_num_rows($query)>0)
+$sql=mysqli_query($conn, "SELECT * FROM movie WHERE movie_id = 1 OR movie_id = 2 OR movie_id = 3 ");
+
+ if(mysqli_num_rows($sql)>0)
 	 { 
 		 $i=1; 
-		 while($row=mysql_fetch_object($query))
+		 while($row=mysqli_fetch_object($sql))
 		 { 
 	       
 	 ?>    
-    	<img src= <?php echo "movie/". $row->movie_img; ?> alt="Image" style=" width: 180px;height: 250px; margin-top: 100px;margin-left: 110px">
-     <a href="info.php?id=<?php echo $row->movie_id; ?>" class="button" style="margin-left: 30px;">INFO</a>
+    	<img src= <?php echo "movie/". $row->movie_poster; ?> alt="Image" style=" width: 180px;height: 250px; margin-top: 100px;margin-left: 110px">
+      <a href="info.php?id=<?php echo $row->movie_id; ?>" class="button" style="margin-left: 30px;">INFO</a>
        <?php  } } ?>  
 
    
@@ -87,11 +87,11 @@ $query=mysql_query($sql);
 	
 <?php
     $sql="select * from movie where movie_id = 1 OR movie_id = 2 OR movie_id = 3 ";
-    $result = mysql_query($sql) or die('Query failed. ' . mysql_error());
+    $result = mysqli_query($conn, $sql) or die('Query failed. ');
 
      $tmpCount = 1;
-     if(mysql_num_rows($result) != 0) {
-     while($row = mysql_fetch_assoc($result)) {?>
+     if(mysqli_num_rows($result) != 0) {
+     while($row = mysqli_fetch_assoc($result)) {?>
 	<tbody>
 		
 		<tr class="even">
