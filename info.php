@@ -1,10 +1,10 @@
 <?php
   session_start();
-  include('sql_connect.php');
+  include('connect.php');
 
   $sql="select * from movie where movie_id='{$_GET['id']}' ";
-  $query=mysql_query($sql);
-  $row=mysql_fetch_object($query);
+  $query=mysqli_query($conn, $sql);
+  $row=mysqli_fetch_object($query);
   $movie_name=$row->movie_name;
   $movie_desc=$row->movie_desc;
   $movie_vid=$row->movie_vid;
@@ -66,7 +66,7 @@
   <table style="width:50%" border="0">
 
     <tr>
-      <td rowspan="6"><img src= <?php echo "movie/". $row->movie_img; ?> alt="Image" style=" width: 200px;height: 250px;margin-right: 50px"></td>
+      <td rowspan="6"><img src= <?php echo "movie/". $row->movie_poster; ?> alt="Image" style=" width: 200px;height: 250px;margin-right: 50px"></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <th colspan="2" align="left">SYNOPSIS</th>
