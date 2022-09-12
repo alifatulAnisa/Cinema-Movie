@@ -40,12 +40,12 @@
 
   <?php
     echo $cust_email = $_SESSION ["cust_email"];
-    $query = mysql_query ("select * from customer where cust_email= '$cust_email'");
-    $numrows = mysql_num_rows($query);
+    $query = mysqli_query ($conn, "select * from customer where cust_email= '$cust_email'");
+    $numrows = mysqli_num_rows($query);
 
     if ($numrows!==0)
     {
-      while($row = mysql_fetch_assoc($query))
+      while($row = mysqli_fetch_assoc($query))
       {
         $cust_name = $row ['cust_name'];
         $_SESSION['cust_name']=$cust_name;
@@ -72,14 +72,14 @@
 
   <?php
     $sql="select * from movie";
-    $query=mysql_query($sql);
+    $query=mysqli_query($conn, $sql);
 
-      if(mysql_num_rows($query)>0){ 
+      if(mysqli_num_rows($query)>0){ 
         $i=1; 
-    		while($row=mysql_fetch_object($query)){ 	       
+    		while($row=mysqli_fetch_object($query)){ 	       
   ?>    
 
-  <img src= <?php echo "movie/". $row->movie_img; ?> alt="Image" style=" width: 180px;height: 250px; margin-top: 100px;margin-left: 110px">
+  <img src= <?php echo "movie/". $row->movie_poster; ?> alt="Image" style=" width: 180px;height: 250px; margin-top: 100px;margin-left: 110px">
   <a href="info.php?id=<?php echo $row->movie_id; ?>" class="button" style="margin-left: 30px;">INFO</a>
   
   <?php  } } ?>     
@@ -91,11 +91,11 @@
 	
   <?php
       $sql="select * from movie";
-      $result = mysql_query($sql) or die('Query failed. ' . mysql_error());
+      $result = mysqli_query($conn, $sql) or die('Query failed. ' . mysql_error());
       $tmpCount = 1;
 
-        if(mysql_num_rows($result) != 0) {
-        while($row = mysql_fetch_assoc($result)) {
+        if(mysqli_num_rows($result) != 0) {
+        while($row = mysqli_fetch_assoc($result)) {
   ?>
     	<tbody>   		
     		<tr class="even">
