@@ -12,7 +12,7 @@
 		if ($cust_password == $cust_rePassword){
 			$sql = "INSERT INTO customer(cust_name, cust_phone, cust_email, cust_password) VALUES('$cust_name', '$cust_phone', '$cust_email', '$cust_password')";
 
-			$sql_check = mysql_query ( $sql) or die ("Query failed");
+			$sql_check = mysqli_query ($conn, $sql) or die ("Query failed");
 
 			if(!$sql_check){
 				echo "SQL ERROR";
