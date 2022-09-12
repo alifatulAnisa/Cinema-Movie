@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include('sql_connect.php');
+  include('connect.php');
 ?> 
 <html>
 
@@ -56,15 +56,15 @@
 
 <?php
   $sql="select * from movie";
-  $query=mysql_query($sql);
-  if(mysql_num_rows($query)>0)
+  $query=mysqli_query($conn, $sql);
+  if(mysqli_num_rows($query)>0)
 	{ 
 		$i=1; 
-		while($row=mysql_fetch_object($query))
+		while($row=mysqli_fetch_object($query))
 	{ 
 ?>    
     	
-  <img src= <?php echo "movie/". $row->movie_img; ?> alt="Image" style=" width: 180px;height: 250px; margin-top: 100px;margin-left: 110px">
+  <img src= <?php echo "movie/". $row->movie_poster; ?> alt="Image" style=" width: 180px;height: 250px; margin-top: 100px;margin-left: 110px">
   <a href="info.php?id=<?php echo $row->movie_id; ?>" class="button" style="margin-left: 30px;">INFO</a>
 <?php  } } ?>         
 
@@ -75,11 +75,11 @@
 	
     <?php
       $sql="select * from movie";
-      $result = mysql_query($sql) or die('Query failed. ' . mysql_error());
+      $result = mysqli_query($conn, $sql) or die('Query failed. ' . mysql_error());
 
       $tmpCount = 1;
-        if(mysql_num_rows($result) != 0) {
-          while($row = mysql_fetch_assoc($result)) {
+        if(mysqli_num_rows($result) != 0) {
+          while($row = mysqli_fetch_assoc($result)) {
     ?>
 
     	<tbody>	
