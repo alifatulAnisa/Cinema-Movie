@@ -1,4 +1,15 @@
 <?php
-mysql_connect("localhost", "root", "") or die("mysql connection is failure.");
-mysql_select_db("cinema") or die("Database does not exists.");
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $db = "cinema";
+
+    // Create connection
+    $conn = mysqli_connect($servername, $username, $password, $db);
+
+    // Check connection
+    if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+    }
+    //echo "Connected successfully";
 ?>
